@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.priyanka{
+    text-align: center;
+    background: #f0dddd;
+    padding: 30px;
+}
+
+.priya{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+
+.priya1{
+    background: white;
+    width: 250px;
+    text-align: center;
+    border-radius:20px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #aaa;
+    padding-bottom: 20px;
+}
+
+.priya1 img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+button{
+    background: #176b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button{
+    background: #176b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+</style>
+</head>
+<body>
+ 
+<div class="priyanka">
+    <label>Search:</label>
+    <input list="house" name="house" placeholder="Search Houses">
+    <datalist id="house">
+    <open value="Single-Bedroom"></open>
+    <option value="Double-Bedroom"></option>
+    <option value="Famiy"></option>
+    <option value="Luxury"></option>
+    <option value="OTHERS--"></option>
+</datalist>
+<br>
+</div>
+
+<h2 style="text-align:center;">Available Properties</h2>
+
+<div class="priya">
+
+    <div class="priya1">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500">
+        <h3>Luxury Villa</h3>
+        <p>Spacious villa with a garden and swimming pool.</p>
+        <h4>₹1.5 Crore</h4>
+        <button onclick="alert('Villa booking selected!')">Book Now</button>
+    </div>
+
+    <div class="priya1">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500">
+        <h3>Family House</h3>
+        <p>Beautiful family home with a modern design.</p>
+        <h4>₹85 Lakhs</h4>
+        <button onclick="alert('Family house booking selected!')">Book Now</button>
+    </div>
+
+    <div class="priya1">
+        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=500">
+        <h3>Modern Apartment</h3>
+        <p>Comfortable apartment with modern facilities.</p>
+        <h4>₹45 Lakhs</h4>
+        <button onclick="alert('Apartment booking selected!')">Book Now</button>
+    </div>
+
+    <div class="priya1">
+        <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=500">
+        <h3>Cottage House</h3>
+        <p>Peaceful cottage surrounded by greenery.</p>
+        <h4>₹35 Lakhs</h4>
+        <button onclick="alert('Cottage booking selected!')">Book Now</button>
+    </div>
+
+</div>
+<center>
+         <a href="1.MAHABAR REAL ESTATE PROPERTY LISTING WEBSITE.html" class="button">GO BACK</a>
+</center>
+</body>
+</html>
